@@ -21,7 +21,7 @@ def menu():
         elif selection == 'r':
             ask_read_blog()
         elif selection == 'p':
-            ask_create_post()
+            ask_create_post() 
         selection = input(MENU_PROMPT)
 
 
