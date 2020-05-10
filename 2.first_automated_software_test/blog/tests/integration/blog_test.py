@@ -14,7 +14,7 @@ class BlogTest(TestCase):
 
     def test_json_no_posts(self):
         b = Blog('Test', 'Test Author')
-        expected = {'title' : 'Test', 'author' : 'Test Author', 'posts' : []}
+        expected = {'title': 'Test', 'author': 'Test Author', 'posts': []}
 
         self.assertDictEqual(b.json(), expected)
 
